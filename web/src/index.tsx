@@ -11,6 +11,7 @@ import store from './store/store';
 const root = ReactDOM.createRoot(
   document.getElementById('wrapper') as HTMLElement,
 );
+console.log('закрой консоль');
 root.render(
   <Provider store={store}>
 
