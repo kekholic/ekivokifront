@@ -3,6 +3,7 @@ import { io } from 'socket.io-client';
 const options = {
   'force new connection': true,
   reconnecctionAttempts: 'infinity',
+  secure: true,
   timeout: 10000,
   transport: ['websocket'],
 };
