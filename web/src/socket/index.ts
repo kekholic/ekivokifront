@@ -7,7 +7,7 @@ const options = {
   rejectUnauthorized: false,
   secure: true,
   timeout: 10000,
-  transport: ['websocket'],
+  transport: ['websocket', 'polling'],
 };
 
 const socket = io(`${process.env.REACT_APP_API_URL}`, options);
