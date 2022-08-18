@@ -1,6 +1,7 @@
 import { io } from 'socket.io-client';
 
 const options = {
+  withCredentials: true,
   'force new connection': true,
   reconnecctionAttempts: 'infinity',
   rejectUnauthorized: false,
