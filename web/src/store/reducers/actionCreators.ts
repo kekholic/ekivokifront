@@ -1,8 +1,8 @@
 /* eslint-disable import/prefer-default-export */
 import { createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
-
 import $api from '../../http';
+
 import { IData } from '../../models/IData';
 import { IDataCreateGame } from '../../models/IDataCreateGame';
 import { IDataGame } from '../../models/IDataGame';
