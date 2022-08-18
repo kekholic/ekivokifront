@@ -30,7 +30,7 @@ export const checkAuth = createAsyncThunk(
   async (_, thunkAPI) => {
     try {
       const res = await axios.get<IData>(
-        `${process.env.REACT_APP_API_URL}/auth/refresh`,
+        `${process.env.REACT_APP_API_URL}auth/refresh`,
         {
           withCredentials: true,
         },
