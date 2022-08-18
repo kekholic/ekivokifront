@@ -1,0 +1,125 @@
+.settingsForm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Montserrat';
+  color: #fff;
+  row-gap: 20px;
+}
+
+.settingsTitle{
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+
+.settingsUl{
+  align-self: flex-start;
+}
+
+.settingsFormDiv{
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-family: 'Montserrat';
+  column-gap: 5px;
+}
+
+.settingsLi{
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.settingsLi+.settingsLi {
+  margin-top: 5px;
+}
+
+.settingsSubmit{
+  padding: 8px 16px;
+  text-decoration: none;
+  font-family: 'Montserrat';
+  box-shadow: 0 6px 6px rgb(0 0 0 / 35%);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  color: #F8F8F8;
+  background: #E1782B;
+  border-radius: 12px;
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+
+.settingsSubmit:hover{
+  background: #fa842f;
+  transform: translateY(-5px);
+  box-shadow: 0 4px 0 #9f511a;
+}
+
+.settingsSubmit:active{
+  transform: translateY(-2px);
+  box-shadow: 0 1px 0 #9f511a;
+}
+
+select {
+  -webkit-appearance: none;
+-moz-appearance: none;
+-ms-appearance: none;
+appearance: none;
+outline: 0;
+box-shadow: none;
+border: 0!important;
+background: #E1782B;
+background-image: none;
+flex: 1;
+padding: 3px 10px;
+color: #fff;
+cursor: pointer;
+}
+
+
+select::-ms-expand{
+  display: none;
+}
+
+.settingsSelect{
+  position: relative;
+  display: flex;
+  line-height: 3;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.settingsSelect::after{
+  content: '\25BC';
+  position: 0;
+  right: 0;
+  top: 0;
+  padding: 0 7px;
+  background: #E1782B;
+  cursor: pointer;
+  pointer-events: none;
+  transition: 0.25s all ease;
+}
+
+.settingsSelect:hover::after{
+  color: #10293A;
+}
+
+.settingsInput{
+  width: 40%;
+  height: 35px;
+  padding-left: 15px;
+  font-size: 20px;
+  border: solid 2px #E1782B;
+  border-radius: 20px;  
+  background: #10293A;
+  color: #fff;
+}
+
+.settingsInput:focus{
+  background: #265f86;
+}
+
+.settingsInput::placeholder{
+  color: rgb(255, 255, 255);
+  opacity: 0.8;
+}

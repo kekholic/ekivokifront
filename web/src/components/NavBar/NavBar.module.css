@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+.header__container{
+}
+
+.header__row{
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1400px;
+  padding: 20px 15px 0;
+}
+
+
+.link{
+  padding: 12px 20px;
+  text-decoration: none;
+  font-family: 'Montserrat';
+  box-shadow: 0 6px 6px rgb(0 0 0 / 35%);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  color: #F8F8F8;
+  background: #206EB0;
+  border-radius: 12px;
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+
+.link + .link {
+  margin-left: 20px;
+}
+
+.link:hover{
+  background: #459be1;
+  transform: translateY(-5px);
+  box-shadow: 0 7px 0 #0c426f;
+}
+
+.link:active{
+  transform: translateY(-2px);
+  box-shadow: 0 3px 0 #0c426f;
+}
+
+.header_logo{
+  text-shadow:0px 3px 0 rgb(0,0,0),0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0);
+  -webkit-text-shadow:0px 3px 0 rgb(0,0,0),0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0);
+  -moz-text-shadow:0px 1px 0 rgb(0,0,0),0px -1px 0 rgb(0,0,0),1px 0px 0 rgb(0,0,0),-1px 0px 0 rgb(0,0,0),1px 1px 0 rgb(0,0,0),1px -1px 0 rgb(0,0,0),-1px 1px 0 rgb(0,0,0),-1px -1px 0 rgb(0,0,0);
+  font-size: 68px;
+  color:rgb(255, 255, 255);
+  font-family: 'Caveat', cursive;
+  display: block;
+  }
+
+.haeder_menu{
+  display: flex;
+  justify-content: start;
+}

@@ -1,0 +1,33 @@
+.gameContainer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.gameItem{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: rgb(32 110 176 / 70%);
+  border-radius: 12px;
+  align-items: center;
+  height: 500px;
+  width: 300px;
+}
+
+.gameItem:hover{
+  background: #459be1;
+}
+
+.gameSvg{
+  height: 200px;
+  width: 200px;
+}
+
+.gameText{
+  color: #fff;
+  font-size: 22px;
+  font-family: 'Montserrat';
+}

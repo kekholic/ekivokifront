@@ -1,0 +1,91 @@
+.videoContainer{
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.videoContainerHost{
+  order: 1;
+}
+
+.videoContainerPlayer{
+  order: 2;
+}
+
+.videoHost{
+  width: 700px;
+  border: solid 4px #E1782B;
+  border-top-left-radius: 12px ;
+  border-top-right-radius: 12px ;
+}
+
+.videoPlayer{
+  width: 400px;
+  border: solid 4px #206eb0;
+  border-radius: 12px ;
+}
+
+.videoHostTitle{
+  padding: 13px 0px;
+  border-bottom-left-radius: 12px ;
+  border-bottom-right-radius: 12px ;
+  font-family: 'Montserrat';
+  text-align: center;
+  background: #E1782B;
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.videoUserContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  border-radius: 10px;
+  background: #E1782B;
+  position: absolute;
+  top: 3%;
+  right: 3%;
+}
+
+.videoUserName{
+  font-size: 20px;
+  color: #fff;
+}
+
+.videoUserAvatar{
+  width: 30px;
+}
+
+.videoUserName + .videoUserAvatar{
+  margin-left: 5px;
+}
+
+@media (max-width: 2230px) {
+  .videoHost{
+    width: 700px;
+  }
+  .videoPlayer{
+    width: 400px;
+  }
+}
+
+@media (max-width: 1920px) {
+  .videoHost{
+    width: 550px;
+  }
+  .videoPlayer{
+    width: 400px;
+  }
+}
+
+
+@media (max-width: 1440px) {
+  .videoHost{
+    width: 410px;
+  }
+  .videoPlayer{
+    width: 300px;
+  }
+}

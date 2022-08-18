@@ -1,0 +1,90 @@
+.listContent{
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.listItem{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 8px;
+}
+
+.listTitle{
+  position:relative;
+  font-size: 25px;
+  letter-spacing: 1px;
+  color: #fff;
+  width: 25%;
+  overflow: hidden;
+}
+
+.listCount{
+  width: 6%;
+  align-self: center;
+  font-size: 25px;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.listInput{
+  width: 30%;
+  height: 35px;
+  padding-left: 15px;
+  font-size: 20px;
+  border: solid 2px #E1782B;
+  border-radius: 20px;  
+  background: #10293A;
+  color: #fff;
+}
+
+.listInput:focus{
+  background: #265f86;
+}
+
+.listInput::placeholder{
+  color: rgb(255, 255, 255);
+  opacity: 0.8;
+}
+  .listSubmit{
+    width: 30%;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    box-shadow: 0 6px 6px rgb(0 0 0 / 35%);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    color: #F8F8F8;
+    background: #E1782B;
+    border-radius: 12px;
+    letter-spacing: 2px;
+    transition: 0.2s;
+  }
+  
+  .listSubmit:hover{
+    background: #fa842f;
+    transform: translateY(-5px);
+    box-shadow: 0 4px 0 #9f511a;
+  }
+  
+  .listSubmit:active{
+    transform: translateY(-2px);
+    box-shadow: 0 1px 0 #9f511a;
+  }
+
+  .listError{
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-family: 'Montserrat';
+
+  }
+
+  .listErrorLink{
+    color: #fff;
+    text-decoration: underline;
+  }
