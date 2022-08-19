@@ -25,25 +25,22 @@ function ModalEnd({ winner }: Props) {
     navigate(0);
   };
   return (
-    <div
-      className={
-        winner.win ? `${style.modal} ${style.modalActive}` : `${style.modal}`
-      }
-    >
-      <div
-        className={
-          winner.win
-            ? `${style.modalContent} ${style.modalContentActive}`
-            : `${style.modalContent}`
-        }
-      >
-        <h1>
-          {winner.name}
-          {' '}
-          выиграл со счетом
-          {winner.score}
-        </h1>
-        <button onClick={exitHandler} type="submit">
+    <div className={winner.win ? `${style.modal} ${style.modalActive}` : `${style.modal}`}>
+      <div className={style.modalContent}>
+        <p className={style.modalText}>
+          <p>Поздравляем !!!</p>
+          <p>
+            <span style={{ fontWeight: '700' }}>
+              {winner.name}
+            </span>
+            {' '}
+            выиграл со счетом
+            {' '}
+            {winner.score}
+            !
+          </p>
+        </p>
+        <button className={style.modalExitButton} onClick={exitHandler} type="submit">
           Выйти
         </button>
       </div>

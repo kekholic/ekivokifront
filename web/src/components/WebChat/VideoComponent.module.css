@@ -5,6 +5,7 @@
 }
 
 .videoContainerHost{
+  grid-area: A;
   order: 1;
 }
 
@@ -13,14 +14,14 @@
 }
 
 .videoHost{
-  width: 700px;
+  width: 100%;
   border: solid 4px #E1782B;
   border-top-left-radius: 12px ;
   border-top-right-radius: 12px ;
 }
 
 .videoPlayer{
-  width: 400px;
+  width: 100%;
   border: solid 4px #206eb0;
   border-radius: 12px ;
 }
@@ -60,32 +61,4 @@
 
 .videoUserName + .videoUserAvatar{
   margin-left: 5px;
-}
-
-@media (max-width: 2230px) {
-  .videoHost{
-    width: 700px;
-  }
-  .videoPlayer{
-    width: 400px;
-  }
-}
-
-@media (max-width: 1920px) {
-  .videoHost{
-    width: 550px;
-  }
-  .videoPlayer{
-    width: 400px;
-  }
-}
-
-
-@media (max-width: 1440px) {
-  .videoHost{
-    width: 410px;
-  }
-  .videoPlayer{
-    width: 300px;
-  }
 }

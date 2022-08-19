@@ -19,19 +19,52 @@
 }
 
 .modalContent {
-  padding: 20px;
+  padding: 60px;
   border-radius: 12px;
   background-color: #10293A;
-  transform: scale(0.5);
-  width: 40vw;
+  font-family: 'Montserrat';
+  color: #fff;
+  width: 50vw;
   transition: 0.4s;
-  position: absolute;
   display: flex;
-  align-items: flex-start;
+  gap: 20px;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
 
-.modalContentActive {
-  transform: scale(1);
+
+.modalText{
+  font-size: 25px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.modalText:first-child{
+  font-size: 30px;
+}
+
+.modalExitButton{
+  padding: 8px 16px;
+  text-decoration: none;
+  box-shadow: 0 6px 6px rgb(0 0 0 / 35%);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  color: #F8F8F8;
+  background: #E1782B;
+  border-radius: 12px;
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+
+.modalExitButton:hover{
+  background: #fa842f;
+  transform: translateY(-5px);
+  box-shadow: 0 4px 0 #9f511a;
+}
+
+.modalExitButton:active{
+  transform: translateY(-2px);
+  box-shadow: 0 1px 0 #9f511a;
 }
