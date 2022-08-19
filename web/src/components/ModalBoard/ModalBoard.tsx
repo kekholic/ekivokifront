@@ -117,7 +117,6 @@ function ModalBoard({ boardVisible }: Props) {
             : `${style.modalContent}`
         }
       >
-        <p>КАРТА!!</p>
         <img className={style.board} src={board} alt="board" />
 
         {range(1, 44).map((el) => (
