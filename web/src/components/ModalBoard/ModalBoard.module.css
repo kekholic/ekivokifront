@@ -27,7 +27,7 @@
   transition: 0.4s;
   position: absolute;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
   justify-content: center;
 }
@@ -36,26 +36,26 @@
   transform: scale(1);
 }
 
-.ava{
+.ava {
   position: absolute;
   max-width: 75px;
   z-index: 5;
   min-width: 50px;
-      /* position: absolute; */
-      /* top: 190px; */
-      /* left: 110px; */
-      /* flex: 0 0 50%;*/
+  /* position: absolute; */
+  /* top: 190px; */
+  /* left: 110px; */
+  /* flex: 0 0 50%;*/
 }
 
-.board{
+.board {
   position: relative;
   z-index: 2;
 }
 
-.cell{
+.cell {
   position: absolute;
-    display: flex;
-    flex-wrap: wrap;
-    width: 100px;
-    height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100px;
+  height: 100px;
 }

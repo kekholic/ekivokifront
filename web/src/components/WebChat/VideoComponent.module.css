@@ -66,7 +66,6 @@
 @media(max-width: 1440px) {
   .videoUserName {
     font-size: 14px;
-
   }
 
   .videoUserAvatar {
@@ -76,5 +75,4 @@
   .videoUserName+.videoUserAvatar {
     margin-left: 2px;
   }
-
 }
