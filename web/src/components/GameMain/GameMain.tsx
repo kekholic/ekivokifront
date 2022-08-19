@@ -260,7 +260,9 @@ export default function GameMain() {
   return (
     <div className={style.gameContainer}>
       <div className={style.gameVideos}>
+        <div className={style.gameVideosGridContainer}>
         {id && <VideoComponent roomID={id} />}
+        </div>
       </div>
       <div className={style.gameSpace}>
         {modal.visible && (

@@ -16,3 +16,15 @@
 .videoContainer{
   
 }
+
+
+.gameVideosGridContainer{
+  display: grid;
+  grid-template-areas: 
+   "A A B"
+   "A A C"
+   "D F E";
+}
+
+
+
