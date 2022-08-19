@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 /* eslint-disable implicit-arrow-linebreak */
 /* eslint-disable linebreak-style */
 /* eslint-disable consistent-return */
