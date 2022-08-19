@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 /* eslint-disable comma-dangle */
 // import axios from 'axios';
 import React, { useEffect, useState } from 'react';
@@ -82,8 +83,10 @@ export default function GameList() {
               {gameInner.maxPlayers}
 
             </span>
-            <input className={style.listInput} type="text" name="password" placeholder="Введите пароль" />
-            <button className={style.listSubmit} type="submit" onClick={() => handleClick(gameInner)}>Выбрать игру</button>
+            <input className={style.listInput}
+             type="text" name="password" placeholder="Введите пароль" />
+            <button className={style.listSubmit}
+             type="submit" onClick={() => handleClick(gameInner)}>Выбрать игру</button>
           </div>
         ))
         : (
