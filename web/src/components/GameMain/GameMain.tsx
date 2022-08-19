@@ -261,7 +261,7 @@ export default function GameMain() {
     <div className={style.gameContainer}>
       <div className={style.gameVideos}>
         <div className={style.gameVideosGridContainer}>
-        {id && <VideoComponent roomID={id} />}
+          {id && <VideoComponent roomID={id} />}
         </div>
       </div>
       <div className={style.gameSpace}>
