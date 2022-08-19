@@ -34,8 +34,8 @@ export default function NavBar() {
                 >
                   Выйти из игры
                 </button>
-                <Link className={style.link} to="/personal">
-                  Профиль
+                <Link className={style.link} to="/rules">
+                  Правила
                 </Link>
                 <Link className={style.link} to="/game/start">
                   Начать
@@ -50,8 +50,8 @@ export default function NavBar() {
               </>
             ) : (
               <>
-                <Link className={style.link} to="/personal">
-                  Профиль
+                <Link className={style.link} to="/rules">
+                  Правила
                 </Link>
                 <Link className={style.link} to="/game/start">
                   Начать

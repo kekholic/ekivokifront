@@ -11,9 +11,9 @@ import GameMain from './components/GameMain/GameMain';
 import GameList from './components/GameStart/GameList/GameList';
 import GameStart from './components/GameStart/GameStart';
 import InnerContent from './components/InnerContent/InnerContent';
-import PersonalPage from './components/PersonalPage/PersonalPage';
 import ProtectedRoutes from './components/ProtectedRoutes/ProtectedRoutes';
 import PublicRoutes from './components/PublicRoutes/PublicRoutes';
+import Rules from './components/Rules/Rules';
 import { useAppDispatch } from './hooks/redux';
 import { getInit } from './store/reducers/authSlice';
 
@@ -40,7 +40,7 @@ function MainRoutes() {
             <Route path="/game/start/new" element={<GameInit />} />
             <Route path="/game/start/list" element={<GameList />} />
           </Route>
-          <Route path="/personal" element={<PersonalPage />} />
+          <Route path="/rules" element={<Rules />} />
           <Route path="/canvas" element={<Canvas roomID={undefined} canSendMessage={false} />} />
           <Route path="/game/:id" element={<GameMain />} />
         </Route>
