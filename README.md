@@ -14,10 +14,9 @@ This game was build using next technologies:
 
 # Installation
 
-0. Dont forget about back part! https://github.com/kekholic/ekivokiback
-1. npm i
-2. npm start
-3. enjoy playing
+1. Don't forget about back part! https://github.com/kekholic/ekivokiback
+2. `npm i`
+3. `npm start`
 
 # Links
 
